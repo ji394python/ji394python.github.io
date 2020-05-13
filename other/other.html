@@ -1,23 +1,41 @@
-<!-- 先做架構 -->
-<!-- 再調CSS美化-->
-<!-- 也就是說一開始在腦袋裡就想好架構了 -->
+<div class="information">
+  <h1 class="title">網頁設計專案</h1>
+  <hr>
+  <h2 class="function">(1) 網頁功能規劃</h2>
+  <ul>
+    <li><b class="sub">內容:</b>
+      <p class="subcontent">要放甚麼都OK (研究論文、內容、數據表....etc)</p>
+    </li>
+    <li> <b class="sub">論壇:</b>
+      <p class="subcontent">可讓使用者留言問問題與討論</p>
+    </li>
+    <li> <b class="sub">互動資料專區:</b>
+      <p class="subcontent">讓使用者可以玩資料互動(如同主頁左下和右下互動統計，正式版會更深入)</p>
+    </li>
+    <li><b class="sub">報表寄送與下載功能:</b>
+      <p class="subcontent">若使用者需要可以將研究報告寄送至使用者信箱or從網頁上直接下載下來</p>
+    </li>
+    <li> <b class="sub">其他客製化功能:</b>
+      <p class="subcontent">看需不需要再加功能或刪除功能(待討論)</p>
+    </li>
+  </ul>
+  <hr>
+  <h2 class="cost">(2) 工時與規劃</h2>
+  <ul>
+    <li> <b class="sub">工時:</b>
+      <p class="subcontent">80-150hr (依照內容難度，大概要1至2個月)</p>
+    </li>
+    <li> <b class="sub">網站架構規劃:</b>
+      <pre> <b class="subsub">Demo網站:</b>
+  1.主要撰寫語言: R(Shiny)
+  2.虛擬主機+網址租用：ShinyApps.io
 
-<div class="box">
-  <div class="top">
-    <h2 class="name">政治大學
-      <span class="smalltext">NccuUniversity</span></h2>
-    <div class="tag"></div>
-    <div class="cirbottom"></div>
-  </div>
-  <div class="bottom">
-    <ul>
-      <li><h3>地址：</h3>116台北市文山區指南路二段64號</li>
-      <li><h3>校長：</h3>郭明政</li>
-      <li><h3>教務長：</h3>賴宗裕</li>
-    </ul>
-    <div class="buttoms">
-      <a class="btn Web" href="https://www.nccu.edu.tw/app/home.php" targe="_blank">前往網站</a>
-      <a class="btn News" href="https://www.nccu.edu.tw/p/426-1000-5.php?Lang=zh-tw" targe="_blank">更多訊息</a>
-    </div>
-  </div>
+<b class="subsub"> 正式網站:</b>
+  1.主要撰寫語言：R(Shiny)  或  Python(Django/Flask)
+  2.虛擬主機+網址租用：
+   →方法一(適合低使用量) > ShinyApps.io      
+   →方法二(中等以上使用量) > AWS的 虛擬主機(Ec3)和網址(route 53)
+</pre>
+    </li>
+  </ul>
 </div>
