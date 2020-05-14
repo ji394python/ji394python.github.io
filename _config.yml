@@ -1,11 +1,11 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 劉家銘
+subtitle: 個人站
+description: 歡迎來到我的作品集
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: chiaming
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
+avatarDesc: 資料動畫師/各類學習心得
 url: "http://baixin.io"
 
 # Comment
@@ -58,13 +58,13 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: 前往主頁
 
 # Navigation buttons in the front page.s
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
+    - {title: 標籤, description: tags, url: '/tags'}      
+    - {title: 關於我, description: about, url: '/about'}      
     
 
 # Pagination
